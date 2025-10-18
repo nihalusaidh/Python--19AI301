@@ -1,0 +1,7 @@
+#Write a python program to compute the factorial for a Given Number
+
+a=int(input())
+fact=1
+for i in range(1,a+1):
+    fact=fact*i
+print(f"The factorial of the given number is {fact}")
