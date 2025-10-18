@@ -1,0 +1,7 @@
+#Write a function which takes three arguments: a and b and c and returns the addition of them: a+b+c. Assign it to a variable named: f. using python
+
+a=int(input())
+b=int(input())
+c=int(input())
+f=lambda a,b,c:a+b+c
+print(f(a,b,c))
