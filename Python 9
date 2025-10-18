@@ -1,0 +1,8 @@
+#Write Python program to print reverse Pyramid of numbers.Get the number of rows as input.
+
+n=int(input())
+
+for i in range(1,n):
+    for j in range(i, 0, -1):
+        print(j, end=" ")
+    print()
