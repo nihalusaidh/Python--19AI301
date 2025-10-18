@@ -1,0 +1,6 @@
+#Write a Python program to check whether the entered year is 20th century is valid or not using if..else statement
+year=int(input())
+if(year>1899 and year<2000):
+    print("Year is 20th Century.")
+else:
+    print("Year is NOT 20th Century.")
