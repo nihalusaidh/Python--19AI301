@@ -1,0 +1,8 @@
+#Write a python program to read two numbers and convert and print them into a complex number. Print the imaginary part of the complex number.
+
+
+a=int(input())
+b=int(input())
+c=complex(a,b)
+print(c)
+print(c.imag)
